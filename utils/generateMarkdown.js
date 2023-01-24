@@ -64,9 +64,9 @@ Any Questions? Please contact me at ${data.email}\n
 You can view this project at https://github.com/${data.git}/README_generator
     
 ## Contact
-* GitHub: [link]https://github.com/${data.git}
-* LinkedIn: https://www.linkedin.com/in/${data.LinkedIn}
-* Email: ${data.email}
+* GitHub: [GitHub](https://github.com/${data.git})
+* LinkedIn: [LinkedIn](https://www.linkedin.com/in/${data.LinkedIn})
+* Email: [Kev McGowan]${data.email}
 ---
 © Kevin McGowan
 `
