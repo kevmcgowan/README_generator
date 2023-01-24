@@ -1,11 +1,4 @@
-// function to generate markdown for README
-
-// ```zsh
-
-// node index.js
-
-// ```
-
+// function to generate license and badge for README
   function renderLicenseBadge(license){
     const badges = {
       AGPLv3: '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)',
@@ -68,11 +61,11 @@ ${data.tests}
     
 ## Questions
 Any Questions? Please contact me at ${data.email}\n
-You can view this project at https://github/${data.git}
+You can view this project at https://github.com/${data.git}/README_generator
     
 ## Contact
-* GitHub: ${data.git}
-* LinkedIn: ${data.LinkedIn}
+* GitHub: [link]https://github.com/${data.git}
+* LinkedIn: https://www.linkedin.com/in/${data.LinkedIn}
 * Email: ${data.email}
 ---
 © Kevin McGowan
